@@ -1,0 +1,75 @@
+html {
+    background-color: aqua;
+}
+body {
+    width: 600px;
+    margin: auto;
+    background: cornflowerblue;
+    border: solid 10px black;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav {
+    text-align: center;
+}
+hr {
+    height: 2px;
+    border: none;
+    background-color: black;
+    width: 575px;
+}
+h1 {
+    margin-left: 15px;
+}
+h2 {
+    margin-left: 15px;
+}
+p {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+#nickFury {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#thor {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#captainAmerica {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#ironMan {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#theHulk {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#blackWidow {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+#hawkeye {
+    height: 200px;
+    width: 200px;
+    margin-left: 15px;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 25px;
+  }
