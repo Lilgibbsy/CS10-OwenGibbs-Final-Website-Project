@@ -1,39 +1,61 @@
 body {
-    margin: auto;
-    width: 600px;
-    border: solid black 10px;
-    border-radius: 25px;
-    padding-top: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: cornflowerblue;
+  margin: auto;
+  width: 600px;
+  border: solid black 10px;
+  border-radius: 25px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgba(27, 136, 187, 0.9);
 }
 html {
-    background-color: aqua;
+  background-image: url(img/3988477.jpg);
+  background-attachment: fixed;
 }
-nav {
-    text-align: center;
+#topNav {
+  text-align: center;
+  position: fixed;
+  margin-left: 235px;
+  background-color: azure;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
 }
 a:visited {
-    text-decoration: none;
-    color: black;
-  }
-  a:hover {
-    background-color: lightskyblue;
-    border-color: lightskyblue;
-    border-radius: 25px;
-  }
-  .text {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-  #btn {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-  hr {
-    height: 2px;
-    border: none;
-    background-color: black;
-    width: 575px;
-  }
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: lightskyblue;
+  border-color: lightskyblue;
+  border-radius: 25px;
+}
+.text {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#btn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+hr {
+  height: 2px;
+  border: none;
+  background-color: black;
+  width: 575px;
+}
+input {
+  border: 4px solid black;
+  border-radius: 25px;
+}
+#resetButton {
+  margin-left: 15px;
+  background-color: lightgrey;
+  width: 37px;
+  border: solid lightslategray 1px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
