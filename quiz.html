@@ -129,7 +129,8 @@ function response() {
     inFour.toLowerCase() == "abow" ||
     inFour.toLowerCase() == "a bow" ||
     inFour.toLowerCase() == "a bow and arrow" ||
-    inFour.toLowerCase() == "abowandarrow"
+    inFour.toLowerCase() == "abowandarrow" ||
+    inFour.toLowerCase() == "bow and arrow"
   ) {
     resultFour = 1;
     document.getElementById("questionFour").style.borderColor = "green";
@@ -204,7 +205,9 @@ function response() {
   let resultEight;
   if (
     inEight.toLowerCase() == "ironman" ||
-    inEight.toLowerCase() == "iron man"
+    inEight.toLowerCase() == "iron man" ||
+    inEight.toLowerCase() == "tony stark" ||
+    inEight.toLowerCase() == "tonystark"
   ) {
     resultEight = 1;
     document.getElementById("questionEight").style.borderColor = "green";
@@ -242,7 +245,7 @@ function response() {
   let resultTen;
   if (
     inTen.toLowerCase() ==
-    "the idea was to bring together a group of of remarkable people to see if they could become something more. to see if they could work together when we needed them to, to fight the battles that we never could."
+    "the idea was to bring together a group of of remarkable people to see if they could become something more. to see if they could work together when we needed them to, to fight the battles that we never could." || inTen.toLowerCase() == "to fight the battles we never could" || inTen.toLowerCase() == "the idea was to bring together a group of of remarkable people to see if they could become something more. to see if they could work together when we needed them to, to fight the battles that we never could" 
   ) {
     resultTen = 1;
     document.getElementById("questionTen").style.borderColor = "green";
