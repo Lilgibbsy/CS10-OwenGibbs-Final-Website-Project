@@ -1,6 +1,5 @@
 html {
-  background-image: url(img/Avengers.jpg);
-  background-attachment: fixed;
+  background: url("img/Avengers.jpg") no-repeat center fixed;
 }
 body {
   width: 600px;

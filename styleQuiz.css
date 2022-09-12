@@ -9,8 +9,7 @@ body {
   background-color: rgba(27, 136, 187, 0.9);
 }
 html {
-  background-image: url(img/Avengers.jpg);
-  background-attachment: fixed;
+  background: url("img/Avengers.jpg") no-repeat center fixed;
 }
 #topNav {
   text-align: center;

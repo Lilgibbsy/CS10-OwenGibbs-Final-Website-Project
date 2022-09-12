@@ -3,7 +3,7 @@ body {
   border: 10px transparent;
   margin: auto;
   width: 700px;
-  background-image: url("img/Avengers.jpg");
+  background: url("img/Avengers.jpg") no-repeat center fixed;
 }
 h1 {
   padding-top: 75px;
