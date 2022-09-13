@@ -51,11 +51,17 @@ input {
 }
 #resetButton {
   margin-left: 15px;
-  background-color: lightgrey;
+  background-color: white;
   width: 37px;
   border: solid lightslategray 1px;
   text-decoration: none;
+  color: blue;
+}
+#resetBtn:visited {
+  text-decoration: none;
+  color: black;
 }
 a {
   text-decoration: none;
 }
+
