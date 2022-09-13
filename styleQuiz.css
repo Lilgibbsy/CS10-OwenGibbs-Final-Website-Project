@@ -10,8 +10,9 @@ body {
 }
 html {
   background: url("img/Avengers.jpg") no-repeat center fixed;
+  background-size: cover;
 }
-#topNav {
+#navMenuQuiz {
   text-align: center;
   position: fixed;
   margin-left: 235px;
@@ -20,11 +21,11 @@ html {
   padding-right: 10px;
   border-radius: 25px;
 }
-a:visited {
+.topNav:visited {
   text-decoration: none;
   color: black;
 }
-a:hover {
+.topNav:hover {
   background-color: lightskyblue;
   border-color: lightskyblue;
   border-radius: 25px;

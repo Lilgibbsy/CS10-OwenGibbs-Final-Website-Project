@@ -3,6 +3,7 @@ body {
   margin: auto;
   width: 700px;
   background: url("img/Avengers.jpg") no-repeat center fixed;
+  background-size: cover;
 }
 h1 {
   padding-top: 75px;
