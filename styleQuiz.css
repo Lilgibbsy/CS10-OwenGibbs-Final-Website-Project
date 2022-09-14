@@ -38,6 +38,7 @@ html {
   margin-top: 15px;
   margin-bottom: 15px;
   cursor: pointer;
+  border-radius: 25px;
 }
 hr {
   height: 2px;
@@ -53,9 +54,10 @@ input {
   margin-left: 15px;
   background-color: white;
   width: 37px;
-  border: solid lightslategray 1px;
+  border: solid black 2px;
   text-decoration: none;
   color: blue;
+  border-radius: 15px;
 }
 #resetBtn:visited {
   text-decoration: none;
@@ -71,5 +73,5 @@ h1 {
 #resetBtn {
   font-size: smaller;
   padding-left: 4px;
-  padding-bottom: 2px;
+  padding-bottom: 5px;
 }
