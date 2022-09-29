@@ -1,5 +1,6 @@
 //Button
 document.getElementById("btn").addEventListener("click", response);
+//answer array
 const answers = [
   "thor",
   "thorodinson",
@@ -272,3 +273,26 @@ function response() {
   document.getElementById("mark").innerHTML = totalMark + "/10 -";
   document.getElementById("percent").innerHTML = "(" + percent + " %)";
 }
+//Cheat sheet
+console.log("Cheat sheet for the quiz");
+console.log("Question 1");
+console.log(answers.slice(0, 3));
+console.log("Question 2");
+console.log(answers.slice(3, 5));
+console.log("Question 3");
+console.log(answers.slice(5, 6));
+console.log("Question 4");
+console.log(answers.slice(6, 12));
+console.log("Question 5");
+console.log(answers.slice(12, 15));
+console.log("Question 6");
+console.log(answers.slice(15, 17));
+console.log("Question 7");
+console.log(answers.slice(17, 20));
+console.log("Question 8");
+console.log(answers.slice(20, 24));
+console.log("Question 9");
+console.log(answers.slice(24, 26));
+console.log("Question 10");
+console.log(answers.slice(26, 28));
+console.log("All answers are case insensitive");
