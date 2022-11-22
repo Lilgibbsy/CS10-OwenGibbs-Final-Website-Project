@@ -29,7 +29,7 @@ const answers = [
   "captain america",
   "captainamerica",
   "the idea was to bring together a group of of remarkable people to see if they could become something more. to see if they could work together when we needed them to, to fight the battles that we never could",
-  "to fight the battles we never could",
+  "to fight the battles that we never could",
 ];
 //Function
 function response() {
